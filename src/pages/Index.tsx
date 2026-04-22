@@ -73,7 +73,7 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag">Хит продаж</span>
               <img
-                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://i.ibb.co/DDQmJbxz/IMG-2251.jpg"
                 alt="Свинство"
               />
               <div className="menu-card-body">
@@ -100,7 +100,7 @@ export default function Index() {
                 Острое
               </span>
               <img
-                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://i.ibb.co/wh7Zt2kp/IMG-2250.jpg"
                 alt="Блядство"
               />
               <div className="menu-card-body">
