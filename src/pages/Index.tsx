@@ -4,7 +4,7 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">VINYL*DINER</div>
+        <div className="logo">СВИН*СТВО</div>
         <nav>
           <a href="#">Меню</a>
           <a href="#">О нас</a>
@@ -18,12 +18,12 @@ export default function Index() {
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              БЕЗ ПОНТОВ,
+              ДА СУКА
               <br />
-              ТОЛЬКО <span>ВКУС</span>
+              <span>ДООО!</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Эстетика 70-х в современной подаче. Локальные продукты, огненные блюда и атмосфера для настоящих ценителей.
+              Место без стыда и цензуры. Честная еда, дерзкие коктейли и атмосфера, где можно быть собой — на полную.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
@@ -36,29 +36,29 @@ export default function Index() {
           </div>
           <div className="hero-img">
             <div className="sticker">
-              СВЕЖАК
+              ЧЕСТНО
               <br />
-              КАЖДЫЙ ДЕНЬ
+              И ЖИРНО
             </div>
             <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
-              #ЭСТЕТИКА
+              #СВИНСТВО
             </div>
             <div className="floating-tag hidden md:block" style={{ bottom: "30%", right: "20%" }}>
-              ОГОНЬ
+              БЛЯДСТВО
             </div>
           </div>
         </section>
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ *
-            БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ
+            &nbsp; * СВИНСТВО И ГОРДОСТЬ * БЛЯДСТВО НА ТАРЕЛКЕ * ДА СУКА ДООО * ОТКРЫТЫ ДО 2:00 * БЕЗ ЦЕНЗУРЫ *
+            СВИНСТВО И ГОРДОСТЬ * БЛЯДСТВО НА ТАРЕЛКЕ * ДА СУКА ДООО * ОТКРЫТЫ ДО 2:00 * БЕЗ ЦЕНЗУРЫ
           </div>
         </div>
 
         <section className="section-padding">
           <div className="section-header">
-            <h2 className="section-title">ВЫБОР ШЕФА</h2>
+            <h2 className="section-title">ХИТ-ПАРАД</h2>
             <a
               href="#"
               className="text-sm md:text-base"
@@ -74,7 +74,7 @@ export default function Index() {
               <span className="menu-tag">Хит продаж</span>
               <img
                 src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Классический бургер"
+                alt="Свинство"
               />
               <div className="menu-card-body">
                 <div
@@ -85,11 +85,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Классика</h3>
+                  <h3>Свинство</h3>
                   <span className="price">1 400 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Тройной смэш из мраморной говядины, фирменный соус, маринованные огурцы на бриоши.
+                  Тройная свиная котлета, хрустящая шкварка, соус барбекю на углях и маринованный лук. Без стыда, только кайф.
                 </p>
               </div>
             </div>
@@ -101,7 +101,7 @@ export default function Index() {
               </span>
               <img
                 src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Неоновая пицца"
+                alt="Блядство"
               />
               <div className="menu-card-body">
                 <div
@@ -112,10 +112,12 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Электро Пепперони</h3>
+                  <h3>Блядство</h3>
                   <span className="price">1 800 ₽</span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Двойная пепперони, острый мёд, тесто на закваске.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Пицца с тремя видами мяса, острым мёдом и пармезаном. Неприлично вкусно — ты предупреждён.
+                </p>
               </div>
             </div>
 
@@ -126,7 +128,7 @@ export default function Index() {
               </span>
               <img
                 src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Диско Сауэр"
+                alt="Да Сука Дооо"
               />
               <div className="menu-card-body">
                 <div
@@ -137,11 +139,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Диско Сауэр</h3>
+                  <h3>Да Сука Дооо</h3>
                   <span className="price">1 200 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Джин, цветок бузины, голубой чай и съедобная золотая пыльца.
+                  Авторский коктейль, который ты попробуешь и скажешь именно это. Джин, маракуйя, имбирь и дерзость.
                 </p>
               </div>
             </div>
@@ -150,10 +152,9 @@ export default function Index() {
 
         <section className="retro-vibe">
           <div>
-            <h2 className="vibe-title">ВАЙБ-ЧЕК ПРОЙДЕН.</h2>
+            <h2 className="vibe-title">ТУТ НЕ СТЕСНЯЮТСЯ.</h2>
             <p className="vibe-text">
-              Мы не просто кормим. Мы создаём моменты. От плейлиста хип-хопа 90-х до диванов в стиле 70-х — каждый уголок
-              продуман для твоего идеального кадра. Бронь не нужна, просто приходи с настроением.
+              Мы не просто кормим. Мы даём свободу. От дерзкого плейлиста до откровенного меню — каждый уголок создан для тех, кто живёт в полный рост. Дресс-код: себя.
             </p>
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
               Наша история
@@ -164,7 +165,7 @@ export default function Index() {
 
         <section className="section-padding">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @VINYL.DINER
+            @SVINSTVO.BAR
           </h2>
           <div className="social-grid">
             <div className="social-item">
@@ -197,9 +198,9 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">VINYL*DINER</div>
+          <div className="footer-logo">СВИН*СТВО</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Твоё место для еды высокого качества и лоу-фай атмосферы. С 2024, но ощущается как 1974.
+            Место для тех, кто не врёт. Честная еда, дерзкий бар и атмосфера без фильтров. С 2024, но ощущается как свобода.
           </p>
         </div>
         <div className="footer-links">
@@ -222,7 +223,7 @@ export default function Index() {
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Условия
+                Контакты
               </a>
             </li>
           </ul>
@@ -230,16 +231,18 @@ export default function Index() {
         <div className="footer-links">
           <h4>Часы работы</h4>
           <ul>
-            <li>Вт-Чт: 12:00 - 23:00</li>
-            <li>Пт-Сб: 12:00 - 02:00</li>
-            <li>Вс: 11:00 - 21:00</li>
-            <li>Пн: Выходной</li>
+            <li>Пн–Пт: 12:00 – 02:00</li>
+            <li>Сб–Вс: 11:00 – 03:00</li>
+            <li>Кухня до 01:00</li>
           </ul>
         </div>
-        <div className="footer-bottom">
-          <span>2025 VINYL DINER</span>
-          <span>ВКУС КЛАССИКИ</span>
-          <span>IG / TW / TK</span>
+        <div className="footer-links">
+          <h4>Контакты</h4>
+          <ul>
+            <li>+7 (999) 000-00-00</li>
+            <li>@svinstvo.bar</li>
+            <li>ул. Дерзкая, 70</li>
+          </ul>
         </div>
       </footer>
     </>
